@@ -1,0 +1,854 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    /* background-color: black; */
+    padding-bottom: 50px;
+    z-index: 101;
+
+    /* HOME CODE */
+
+      height: 100%;
+      margin: 0;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+
+}
+/* HOME CODING START */
+
+.bg {
+  /* The image used */
+  background-image: url("https://rare-gallery.com/resol/2560x1440/5000679-love-couple-beach-artist-artwork-digital-art-hd-4k-sunset-illustration.jpg");
+
+
+  /* Full height */
+  height: 100%;
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* HOME CODING END */
+
+
+
+/* HEADER/NAV CODE
+START */
+
+.header {
+  position:fixed;
+  width: 100%;
+  background: whitesmoke;
+  /* background-color:black; */
+  overflow: hidden;
+  background-color: whitesmoke;
+  padding: 15px 10px;
+  z-index: 100;
+}
+
+.header a {
+  float: left;
+  color: black;
+  /* color: white; */
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+}
+
+.header a:hover {
+  /* background-color: rgb(181, 180, 180); */
+  background-color: red;
+  color: black;
+  transition: .5s;
+  outline: solid red 3px;
+  color: white;
+}
+
+.header a.active {
+    /* background-color: black;
+  color: rgb(247, 44, 44); */
+  background-color: red;
+  color: white;
+  outline:5px solid red;
+}
+
+.header-right {
+  float: right;
+}
+
+/*cart log in Icon styling*/
+.nav-icons{
+  float:right;
+ }
+
+
+/*.....ABOUT STYLE
+.......START...........*/
+
+/*image section left*/
+.about-section{
+  /* background:url(https://cdn.pixabay.com/photo/2017/12/15/13/51/polynesia-3021072_1280.jpg) no-repeat left; */
+  background-size: 55%;
+  background-color: rgb(0, 0, 0);
+  background-color: white;
+  overflow: hidden;
+  padding: 70px 0;
+  object-fit: cover;
+}
+
+.about-bg-image image{
+width: 100px;  
+}
+
+
+/*about section box-right*/
+.about-inner-container{
+  width: 60%;
+  float:right;
+  /* background-color: black; */
+  background-color: white;
+  padding: 100px;
+  box-shadow: 10px 10px 10px 10px;
+  color: rgb(60, 57, 57), 0, 0, 0.76;
+}
+.about-inner-container h1{
+  margin: bottom 10px;
+  font-size: 30px;
+  font-weight: 800;
+  color: red;
+}
+.text{
+  font-size: 16px;
+  color: red;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom:40px;
+  font-weight:200;
+  font-style: italic;
+  margin-top:20px;
+}
+.text2{
+  font-size: 16px;
+  color: black;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom:40px;
+}
+.skills button{
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border-radius: 30px ;
+  padding: 8px;
+  width:200px;
+  background-color: red;
+  color:white;
+  cursor:pointer;
+  text-align: center;
+}
+.skills button:hover{
+  transition: 1s;
+  outline: solid red 10px;
+  color:black;
+}
+.socials{
+  margin-top:10px;
+  padding: 20px;
+
+}
+.socials a{
+  color:red;
+  font-size: 30px;
+  padding:0;
+  margin-right:70px;
+}
+.socials a:hover{
+  color:rgb(253, 123, 123);
+  transform: rotateY(360deg);
+}
+
+@media screen and (max-width:1200px){
+  .inner-container{
+      padding:20px;
+  }
+}
+@media screen and (max-width:1000px) {
+  .about-section{
+      background-size: 100%;
+      padding: 90px 40px;
+  }
+  .inner-container{
+      width:100%;
+  }
+}
+@media screen and (max-width:600px) {
+  .about-section{
+      padding: 0;
+  }
+  .inner-container{
+      padding: 60px;
+  }
+  .skills button{
+      font-size:19px;
+      padding:5px;
+      width:160px;
+  }
+  /*responsive nav */
+  .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+}
+/*.....ABOUT STYLE
+.......END...........*/
+
+
+
+
+/*......BOOK TOURS STYLE
+........START*/
+
+
+.book-inner-container{
+  /* background-color: black; */
+  background-color: white;
+  float:center ;
+  width:100%;
+  padding:100px;
+  
+}
+.book-inner-container h2{
+  /* text-align: center;
+  margin: bottom 30px;
+  font-weight: 800;
+  color: red; */
+    text-align: center;
+    padding-top: 25px;
+    color:red
+  }
+
+.book-text{
+  font-size: 16px;
+  color: red;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom:40px;
+  font-weight:200;
+  font-style: italic;
+  margin-top:20px;
+  text-align: center;
+}
+
+.book-text2{
+  font-size: 16px;
+  color: black;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom:40px;
+  font-weight:200;
+  margin-top:20px;
+  text-align: center;
+}
+
+
+/*Search Bar*/
+/* Style the search field */
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid red;
+  float: left;
+  width: 80%;
+  background: rgb(247, 193, 193);
+  text-align: center;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: red;
+  color: white;
+  font-size: 17px;
+  border: 1px solid red;
+  border-left: none;
+  cursor: pointer;
+  transition: 1s;
+}
+
+form.example button:hover {
+  background: grey;
+  transform: rotateY(360deg);
+}
+
+form.example:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style the buttons on filter recommend*/
+.btn {
+border: none;
+outline: none;
+padding: 12px 16px;
+background-color: red;
+margin:5px;
+color:black;
+
+}
+/*Headings*/
+.Container-Choose{
+margin-top:30px;
+margin-bottom: 10px;
+color:black;
+text-align: center;
+}
+.Container-recommend{
+margin-top: 50px;
+}
+
+.Container-recommend h2{
+color:red
+}  
+
+.Container-recommend h3{
+text-align: center;
+margin-top: 50px;
+}
+
+.Container-recommend h4{
+  text-align: center;
+  margin-top: 25px;
+  }
+  
+
+.btn:hover {
+transition: 1s;
+  outline: solid red 10px;
+  color: red;
+}
+
+.btn.active {
+background-color: red;
+color: white;
+}
+
+
+/* Image Gallery */
+
+* {
+box-sizing: border-box;
+}
+
+.row {
+display: inline-flex;
+overflow: hidden;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+flex: 33.33%;
+padding: 5px;
+overflow: hidden;
+}
+
+.tour-section img{
+width:100px;
+height:200px;
+margin: 5px;
+overflow: hidden;
+padding:5px;
+border-radius: 25px;
+}
+
+p{
+font-size: 15px;
+overflow:hidden;
+}
+/* BUTTON READMORE */
+.skills button{
+align-items: center;
+justify-content: space-between;
+font-weight: 900;
+font-size: 12px;
+letter-spacing: 2px;
+border-radius: 20px ;
+padding: 8px;
+width:300px;
+background-color:white;
+color: black;
+cursor:pointer;
+text-align: center;
+margin-top: 20px;
+display: block;
+outline: none;
+}
+
+.skills button:hover{
+  transition: 1s;
+  background-color: rgb(245, 110, 110);
+  color: rgb(0, 0, 0);
+  outline: solid red 5px;
+  border-color: red;
+}
+
+.socials{
+  margin-top:50px;
+}
+
+.socials a{
+  color:white;
+  font-size: 30px;
+  padding:0;
+  margin-right:70px;
+  text-decoration: none;
+}
+
+.socials a:hover{
+  color:red;
+}
+
+/*BUTTON Deals*/
+.column .book{
+align-items: center;
+justify-content: space-between;
+font-weight: 900;
+font-size: 12px;
+letter-spacing: 2px;
+border-radius: 20px ;
+padding: 8px;
+width:300px;
+color:black;
+cursor:pointer;
+text-align: center;
+background-color:white;
+margin-top:15px;
+outline:3px solid red;
+border-color: red;
+}
+
+.column .book:hover{
+transition: 1s;
+background-color: rgb(245, 110, 110);
+color: rgb(0, 0, 0);
+outline: solid red 5px;
+border-color: red;
+}
+
+.view-cart .skills button{
+width:100%;
+outline:solid 3px red;
+margin-top:50px;
+border-color: red;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+.row {
+  flex-direction: column-reverse;
+}
+.col-25 {
+  margin-bottom: 20px;
+}
+.btn{
+  margin: 5px;
+  font-size: 15px;
+}
+form.example button{
+  width:145px;
+  height:40px;
+  margin-top: 10px;
+}
+}
+
+/*......BOOK TOURS STYLE
+........END*/
+
+
+
+/* .....POPULAR DESTINATIONS
+........START */
+
+* {
+  box-sizing: border-box;
+}
+
+h2.dest_title{
+  text-align: center;
+  margin-bottom:0px;
+
+  padding-top: 125px;
+  color: red;
+}
+
+.dest-intro{
+  font-size: 16px;
+  color: red;
+  line-height: 30px;
+  text-align: center;
+  margin-top:0px;
+  margin-bottom:0px;
+  font-weight:200;
+  font-style: italic;
+}
+
+
+.dest-column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.dest-centered-txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font: weight 200px;
+  pointer-events: none;
+}
+
+.dest-row{
+  padding-bottom: 100px;
+}
+
+
+/* Clearfix (clear floats) */
+.dest-row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.dest-column img {
+  border-radius: 50px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 400px;
+  height: 300px;
+  object-fit:cover;
+}
+
+.dest-column :hover{
+  transition: 1s;
+  color: rgb(0, 0, 0);
+  transform: scale(1.1);
+  transform-origin: 50% 50%;
+  opacity: 70%;
+  }
+
+
+/* .....POPULAR DESTINATIONS
+........END */
+
+
+
+/* .....SUN SEA AND SAND DESTINATIONS
+........START */
+
+.dest-sun-section{
+  width: 100%;
+}
+
+.intro-sun{
+  font-size: 20px;
+  color: red;
+  line-height: 30px;
+  text-align: center;
+  margin-top:0px;
+  margin-bottom:0px;
+  font-weight:200;
+  font-style: italic;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.sun-row {
+  display: inline-flex;
+  overflow: hidden;
+  padding: 10px;
+  padding-bottom: 100px;
+  }
+  
+
+.sun-column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  position: relative;
+  text-align: center;
+  color: black;
+  align-items: center;
+}
+
+.sun-centered-txt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font: weight 200px;
+  pointer-events: none;
+}
+
+/* Clearfix (clear floats) */
+.sun-row:after {
+  content: "";
+  clear: both;
+  display: table;
+  align-items: center;
+}
+
+.sun-column img {
+  border-radius: 50px;
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  width: 400px;
+  height: 300px;
+  object-fit:cover;
+}
+
+
+.sun-skills button{
+  align-content: center;
+  justify-content: space-between;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border-radius: 20px ;
+  padding: 8px;
+  width:300px;
+  background-color:white;
+  color: black;
+  cursor:pointer;
+  text-align: center;
+  margin-top: 20px;
+  display: block;
+  outline: none;
+}
+    
+
+.sun-skills button:hover{
+  transition: 1s;
+  background-color: rgb(245, 110, 110);
+  color: rgb(0, 0, 0);
+  outline: solid red 5px;
+  border-color: red;
+}
+
+
+
+
+
+/* .....SUN SEA AND SAND DESTINATIONS
+........END */
+
+
+
+
+
+/* CONTACT US STYLES 
+.......START*/
+
+h2.contact_title{
+  text-align: center;
+  padding-top: 125px;
+  color: red;
+  padding-bottom: 50px;
+}
+
+.contact_container {
+  display: flex;
+  justify-content: center;
+  color: black;
+  text-decoration: none;
+  padding-bottom: 70px;
+}
+
+.container_contact{
+  color: black;
+  text-decoration: none;
+}
+
+.container_contact h3{
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.container_contact p{
+  font-size: 18px;
+  }
+  
+
+.links a{
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+ }
+
+.links :hover{
+  color: red;
+}
+
+.contact_column {
+  width: 33.33%;
+  color: black;
+  text-decoration: none;
+}
+
+.card{
+  height: 450px;
+  color: black;
+  text-decoration: none;
+
+}
+.card img{
+  height: 200px;
+}
+
+  /* Three columns side by side */
+  .contact_column {
+  float: left;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .contact_column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(121, 117, 117, 0.2);
+  
+}
+
+/* Some left and right padding inside the container */
+.container_contact {
+  padding: 0 16px;
+
+}
+
+/* Clear floats */
+.container_contact:after, .row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.contact_button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: rgb(247, 44, 44);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 25px;
+}
+
+
+.contact_button:hover {
+  transition: 1s;
+  background-color: rgb(245, 110, 110);
+  color: rgb(0, 0, 0);
+  border-color: red;
+  transform-origin: 50% 50%;
+  opacity: 70%;
+  
+}
+
+
+/* FOOTER STYLING */
+
+footer {
+  position: fixed;
+  height: 50px;
+  bottom: 0;
+  border-top: 1px solid #e2e4e4;
+  width:100%;
+  display: flex;
+  align-items: center;
+  color:rgb(96, 94, 94);
+  background: whitesmoke;
+  z-index: 100;
+  
+}
+
+.copyright {
+    vertical-align: middle;
+    text-align: right;
+    padding-left: 10px;
+    width: 100%;
+    font-size: 15px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 25px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: rgb(96, 94, 94);
+}
+
+/* Instagram */
+.fa-instagram {
+  color: rgb(96, 94, 94);
+}
+
+/* Twitter */
+.fa-twitter {
+  color: rgb(96, 94, 94);
+}

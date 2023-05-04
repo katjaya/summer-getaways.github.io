@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- stylesheets / bootstrap / JS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <Link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="java.js">
+
+    <!-- Load icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/c9b55e52ba.js" crossorigin="anonymous"></script>
+
+    <!-- Load fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+    <title>Book Tours Here</title>
+</head>
+
+<body>
+<!---nav - header-->
+    <nav>
+        <div class="header">
+            <a href="#" class="logo">Summer Getaways</a>
+                <div class="header-right">
+                    <a href="home.html">Home</a>
+                    <a href="about.html">About us</a>
+                    <a class="active" href="#">Book Tours Here</a>
+                    <a href="destinations.html">Popular Destinations</a>
+                    <a href="contact.html">Contact Us</a>
+              <!---User and cart-->
+                        <div class="nav-icons">
+                            <a href="#" class="fa-solid fa-cart-shopping"></a>
+                            <a href="#" class="fa-solid fa-user"></a>
+                        </div>
+                </div>
+        </div>
+    </nav>
+
+
+<!--book tour html -->
+
+<div class="tour-section" id="tour-section">
+    <div class="book-inner-container">
+        <h2>Book your next getaway...</h2>
+        <p class="book-text">Romance is in the air and the world is filled with stunning destinations for the perfect romantic holiday getaway whether it’s for Valentine’s Day, or just because! Where will you go next for a lovers retreat?</b>
+        </p>
+        
+        <p class="book-text2">Search for your perfect getaway or browse our lastest packages below...
+        </p>
+
+       <!-- The Search form -->
+        <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+            <input type="text" placeholder="Search.." name="search2">
+            <!--Search Button-->
+            <button type="submit"><i class="fa-solid fa-heart"></i></i></button>
+          </form>
+        
+
+
+        <!--filter Tours-->
+        <div class="Container-recommend">
+        <h2>Our top recommendations...</h2>
+        <h3>What are you looking for?</h3>
+        <h4>Click the options below to find the best locations for your tour preference.</h4>
+        <p>Rated on Romance 
+          <i class="fa-solid fa-star">/ 5</i>
+          
+        </p>
+      </div>
+
+<div id="myBtnContainer">
+<button class="btn active" onclick="filterSelection('')"> Select type</button>
+<button class="btn" onclick="filterSelection('Beach resorts')"> Beach resorts</button>
+<button class="btn" onclick="filterSelection('Natural Areas')"> Natural Areas </button>
+<button class="btn" onclick="filterSelection('Towns & Cities')"> Towns & Cities</button>
+<button class="btn" onclick="filterSelection('Culture and Heritage')">Culture and Heritage</button>
+<button class="btn" onclick="filterSelection('Sport Areas')"> Sport Areas</button>
+</div>
+
+<div class="container">
+<div class="filterDiv Towns & Cities">France 
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<div class="filterDiv Towns & Cities">USA
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+
+<div class="filterDiv Towns & Cities">Russia
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<div class="filterDiv Beach resorts">Spain
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<div class="filterDiv Beach resorts">Australia
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<div class="filterDiv Beach resorts">Fiji
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<div class="filterDiv Beach resorts">Maldives
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<div class="filterDiv Beach resorts">Indonesia
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<div class="filterDiv Natural Areas">India
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+
+</div>
+<div class="filterDiv Natural Areas">Argentina
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+
+</div>
+<div class="filterDiv Natural Areas">Chile
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<div class="filterDiv Culture and Heritage">Jamacia
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<div class="filterDiv Culture and Heritage">France
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<div class="filterDiv Culture and Heritage">Thailand
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<div class="filterDiv Sport Areas">Portugal
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+<div class="filterDiv Sport Areas">Japan
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+
+</div>
+<div class="filterDiv Sport Areas">UK
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+
+
+</div>
+        
+    
+    <div class="Container-Choose">
+        <h2>Find a great getaway with our <b>lastest offers</b></h2>
+        <br>
+        <h4>Explore the countries below to find the <i><b>best</b></i> deals, learn more and book.</h4>
+    </div>
+                
+    
+    <div class="row">
+        <div class="column">
+            <img src="argentina.jpg" alt="argentina" style="width:100%"> 
+            <h3>Argentina</h3>
+            <p>What to do in Ushuaia: Go to the end of the world, literally, with your loved one. 
+                Visit the Les Eclaireurs Lighthouse and gain amazing perspective.</p><b>From £520pp</b>
+                    <div class="skills">
+                      <button onclick="#">Read more</button></div>
+                      <div class="skills">
+                        <button class="book" onclick="">102 Deals></button></div>
+                  </div>
+                  <div class="column">
+                    <img src="bali.jpg" alt="bali" style="width:100%">
+                    <h3>Indonesia</h3>
+                    <p>What to do in Bali: Book at least one night in the Ubud Hanging Gardens Hotel and ask for the Panoramic Deluxe Pool Villa.
+                     The view will leave you speechless.</p>
+                    <b>From £600pp</b>
+                    <div class="skills">
+                      <button onclick="#">Read more</button></div>
+                      <div class="skills">
+                        <button class="book" onclick="">51 Deals></button></div>
+                  </div>
+                  <div class="column">
+                    <img src="bangkok.jpg" alt="bangkok" style="width:100%">
+                    <h3>Thailand</h3>
+                    <p>Explore temples, cruise through Bangkok in a tuk-tuk, take in the present local culture at the street markets, 
+                      and experience the stunning view of the many skyscrapers.</p>
+                    <b>From £798pp</b>
+                    <div class="skills">
+                      <button onclick="#">Read more</button></div>
+                      <div class="skills">
+                        <button class="book" onclick="">81 Deals></button></div>
+                  </div>
+    
+                  <div class="row">
+                    <div class="column">
+                      <img src="easterLand.jpg" alt="easterland" style="width:100%">
+                      <h3>Chile</h3>
+                      <p>Watch the sunset behind the Moai at Hanga Roa (the human figures carved by the Rapa Nui people).</p>
+                      <b>From £822pp</b>
+                      <div class="skills">
+                        <button onclick="#">Read more</button></div>
+                        <div class="skills">
+                          <button class="book" onclick="">29 Deals ></button></div>
+                    </div>
+                    <div class="column">
+                      <img src="kilimanjarao.jpg" alt="kilimanjarao" style="width:100%">
+                      <h3>Africa</h3>
+                      <p>Climb up Mount Kilimanjaro and be in awe of the surrounding nature,
+                         in particular the striking scenes of elephant herds on a snow white backdrop.</p>
+    
+                      <b>From £900pp</b>
+                      <div class="skills">
+                        <button onclick="#">Read more</button></div>
+                        <div class="skills">
+                          <button class="book" onclick="#">37 Deals > </button></div>
+                    </div>
+                    <div class="column">
+                      <img src="las-vegas.jpg" alt="las-vegas" style="width:100%">
+                      <h3>USA Las-Vegas</h3>
+                      <p> is the ultimate destination for spontaneous romantic holiday gestures. Heck, you can even get married right away!</p>
+                      <b>From £1125pp</b>
+                      <div class="skills">
+                        <button onclick="#">Read more</button></div>
+                        <div class="skills">
+                          <button class ="book" onclick="">121 Deals ></button></div>
+                    </div>
+    
+                    <div class="row">
+                      <div class="column">
+                        <img src="new-york.jpg" alt="new-york" style="width:100%">
+                        <h3>USA New-York</h3>
+                        <p>Start off with a stroll in Central Park. What could be more romantic than that? 
+                          Fall in love all over again on a carriage ride or boating on the lake. Hang around and see if you can witness one of the many marriage proposals that take place at these iconic New York locations.</p>
+                        <b>From £1200pp</b>
+                        <div class="skills">
+                          <button onclick="#">Read more</button></div>
+                          <div class="skills">
+                            <button class="book"onclick="">33 Deals ></button></div>
+                      </div>
+                      <div class="column">
+                        <img src="paris.jpg" alt="paris" style="width:100%">
+                        <h3>France</h3>
+                        <p>Take a walk and feel the pulse of the city. Indulge your sweet tooth at one of the many patisseries dotted around the cobbled streets, then take a trip to the temple of love and share a kiss!
+                           Legend has it that couples who kiss at the temple will experience a stronger love and relationship.</p>
+                        <b>From £799pp</b>
+                        <div class="skills">
+                          <button onclick="#">Read more</button></div>
+                          <div class="skills">
+                            <button class="book" onclick="">47 Deals></button></div>
+                      </div>
+                      <div class="column">
+                        <img src="venice.jpg" alt="venice" style="width:100%">
+                        <h3>Italy</h3>
+                        <p>Walk over the more than 350 bridges in the city and admire the reflection of the elegant buildings in the water of the canals. Enjoy the opulence of Saint Peter’s Basilica or head to the colorful island of Burano.
+                           If there is any time left, why not follow in the footsteps of Casanova and explore the sites of his amorous adventures?</p>
+                        <b>From £922pp</b>
+                        <div class="skills">
+                          <button onclick="">Read more</button></div>
+                          <div class="skills">
+                            <button class="book" onclick="">107 deals ></button></div>
+    
+                      </div>
+                      
+                      <div class="column">
+                        <img src="UK.jpeg" alt="UK" style="width:100%">
+                        <h3>UK</h3>
+                        <p>Start and end in London! With the Explorer tour United Kingdom and Ireland, 
+                          you have a 9 days tour package taking you through London, England and 12 other destinations in Europe.
+                           United Kingdom and Ireland includes accommodation in a hotel as well as an expert guide, insurance, meals,
+                            transport and more.</p>
+                        <b>From £922pp</b>
+                        <div class="skills">
+                          <button onclick="">Read more</button></div>
+                          <div class="skills">
+                            <button class="book" onclick="">212 deals ></button></div>
+                      </div>
+                      <div class="column">
+                        <img src="Russia.jpeg" alt="Russia" style="width:100%">
+                        <h3>Russia</h3>
+                        <p>Have a taste of Russian soul, by travelling on a train for hours and hours – probably the trans-Siberian train; or even a cruise on the Volga, 
+                          the biggest river in Europe, that, with its tributaries, 
+                          cuts across the biggest part of the country… 
+                          These varied experiences will no doubt allow you to fall under the spell of Russia…</p>
+                        <b>From £1229pp</b>
+                        <div class="skills">
+                          <button onclick="">Read more</button></div>
+                          <div class="skills">
+                            <button class="book" onclick="">307 deals ></button></div>
+                      </div>
+                      <div class="column">
+                        <img src="Maldives.png" alt="Maldives" style="width:100%">
+                        <h3>Malaysia</h3>
+                        <p>The Maldives is widely known for its serene beaches, secluded cabanas, 
+                          breathtaking sunsets and unique exotic island experiences.
+                           As it's an archipelago, privacy and laid-back holidays are guaranteed</p>
+                        <b>From £1922pp</b>
+                        <div class="skills">
+                          <button onclick="">Read more</button></div>
+                          <div class="skills">
+                            <button class="book" onclick="">157 deals ></button></div>
+                      </div>
+                      
+    
+                      <div id="bottom">
+    
+                        
+                        <!--Purchase Form
+                        <div class="row">
+                          <div class="col-75">
+                            <div class="payment-container">
+                              <h2>Checkout</h2>
+                              <form action="/action_page.php">
+                              
+                                <div class="row">
+                                  <div class="col-50">
+                                    <h3>Billing Address</h3>
+                                    <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                                    <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                                    <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                                    <input type="text" id="email" name="email" placeholder="john@example.com">
+                                    <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                                    <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                                    <label for="city"><i class="fa fa-institution"></i> City</label>
+                                    <input type="text" id="city" name="city" placeholder="New York">
+                        
+                                    <div class="row">
+                                      <div class="col-50">
+                                        <label for="state">State</label>
+                                        <input type="text" id="state" name="state" placeholder="NY">
+                                      </div>
+                                      <div class="col-50">
+                                        <label for="zip">Zip</label>
+                                        <input type="text" id="zip" name="zip" placeholder="10001">
+                                      </div>
+                                    </div>
+                                  </div>
+                        
+                                  <div class="col-50">
+                                    <h3>Payment</h3>
+                                    <label for="fname">Accepted Cards</label>
+                                    <div class="icon-container">
+                                      <i class="fa fa-cc-visa" style="color:navy;"></i>
+                                      <i class="fa fa-cc-amex" style="color:blue;"></i>
+                                      <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                                      <i class="fa fa-cc-discover" style="color:orange;"></i>
+                                    </div>
+                                    <label for="cname">Name on Card</label>
+                                    <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                                    <label for="ccnum">Credit card number</label>
+                                    <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                                    <label for="expmonth">Exp Month</label>
+                                    <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                                    <div class="row">
+                                      <div class="col-50">
+                                        <label for="expyear">Exp Year</label>
+                                        <input type="text" id="expyear" name="expyear" placeholder="2018">
+                                      </div>
+                                      <div class="col-50">
+                                        <label for="cvv">CVV</label>
+                                        <input type="text" id="cvv" name="cvv" placeholder="352">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                </div>
+                                <label>
+                                  <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                                </label>
+                                <input type="submit" value="Complete Purchase" class="btn">
+                              </form>
+                            </div>
+                          </div>-->
+                      
+                          <div class="view-cart">
+                            <div class="skills">
+                              <button onclick="">View Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                            </div>
+                            
+                         </div>
+    
+    
+    
+                        <div class="socials">
+                          <a href="#" class="fa fa-facebook"></a>
+                          <a href="#" class="fa fa-twitter"></a>
+                          <a href="#" class="fa fa-instagram"></a>
+                       </div>
+    
+    
+                      </div>
+    
+                      
+                </div>
+    
+    
+    
+    
+          
+    
+          
+          
+          
+      
+          
+    
+        
+                
+    
+<!-- <footer>
+<p>
+    <div class="social">
+    <i class="fa-brands fa-facebook fa-xl"></i>
+    <i class="fa-brands fa-instagram fa-xl"></i>
+    <i class="fa-brands fa-twitter fa-xl"></i>
+</div>
+    Copyright © 2023 Summer Getaways. All rights reserved.
+</p>
+</footer> -->
+
+         
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+          </body>
+          </html>
+          
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
